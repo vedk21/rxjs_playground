@@ -9,6 +9,11 @@ import { observableUnsubscibe } from './basic/unsubscription';
 // hot_vs_cold
 import { createOnHoverHotObservable, createBasicTextHotObservable } from './hot_vs_cold/hot_observable';
 import { createBasicTextColdObservable } from './hot_vs_cold/cold_observable';
+// subjects
+import { basicSubjectCreation } from './subjects/subject'
+import { behaviorSubjectCreation } from './subjects/behavior_subject'
+import { replaySubjectCreation } from './subjects/reply_subject'
+import { asyncSubjectCreation } from './subjects/async_subject'
 
 
 
@@ -24,7 +29,11 @@ import { createBasicTextColdObservable } from './hot_vs_cold/cold_observable';
 // hot_vs_cold
 // createHotObservable();
 // createBasicTextHotObservable();
-createBasicTextColdObservable();
+// createBasicTextColdObservable();
+// basicSubjectCreation();
+// behaviorSubjectCreation();
+// replaySubjectCreation();
+asyncSubjectCreation();
 
 /*
 * ****** END ******
